@@ -4,21 +4,21 @@
 //
 
 prebuilt_etc {
-    name: "init.mi89xx.rc",
-    src: "init.mi89xx.rc",
+    name: "init.agassi.rc",
+    src: "init.agassi.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
-    name: "init.recovery.mi89xx.rc",
-    src: "init.recovery.mi89xx.rc",
+    name: "init.recovery.agassi.rc",
+    src: "init.recovery.agassi.rc",
     sub_dir: "init",
     recovery: true,
 }
 
 prebuilt_etc {
-    name: "ueventd.mi89xx.rc",
-    src: "ueventd.mi89xx.rc",
+    name: "ueventd.agassi.rc",
+    src: "ueventd.agassi.rc",
     vendor: true,
 }
